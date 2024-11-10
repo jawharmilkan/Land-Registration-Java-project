@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="542.0" prefWidth="722.0" style="-fx-background-color: green;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="simulation.HRFileComplainSceneController">
+   <children>
+      <Label layoutX="288.0" layoutY="17.0" text="Complain" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="82.0" text="List of Complaints:" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+      <Button layoutX="36.0" layoutY="25.0" mnemonicParsing="false" onAction="#backButtonOnAction" prefHeight="30.0" prefWidth="63.0" text="Back">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="showTextArea" editable="false" layoutX="35.0" layoutY="112.0" prefHeight="409.0" prefWidth="650.0" wrapText="true" />
+   </children>
+</AnchorPane>

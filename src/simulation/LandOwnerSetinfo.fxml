@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="731.0" prefWidth="600.0" style="-fx-background-color: green;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="simulation.LandOwnerSetinfoController">
+   <children>
+      <TextField fx:id="gender" layoutX="104.0" layoutY="70.0" prefHeight="25.0" prefWidth="109.0" />
+      <TextField fx:id="address" layoutX="104.0" layoutY="210.0" prefHeight="25.0" prefWidth="238.0" />
+      <TextField fx:id="namefield" layoutX="104.0" layoutY="26.0" prefHeight="25.0" prefWidth="109.0" />
+      <TextField fx:id="nid" layoutX="104.0" layoutY="169.0" prefHeight="25.0" prefWidth="188.0" />
+      <TextField fx:id="age" layoutX="104.0" layoutY="120.0" prefHeight="25.0" prefWidth="109.0" />
+      <TextField fx:id="phone" layoutX="104.0" layoutY="248.0" prefHeight="25.0" prefWidth="162.0" />
+      <Button layoutX="391.0" layoutY="640.0" mnemonicParsing="false" onMouseClicked="#infosavebtn" prefHeight="62.0" prefWidth="109.0" text="Save" />
+      <Button layoutX="428.0" layoutY="33.0" mnemonicParsing="false" onMouseClicked="#backbutton" prefHeight="45.0" prefWidth="75.0" text="Back" />
+      <Label layoutX="14.0" layoutY="26.0" prefHeight="25.0" prefWidth="69.0" text="Name:" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="70.0" prefHeight="25.0" prefWidth="69.0" text="Gender:" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="117.0" prefHeight="25.0" prefWidth="69.0" text="Age:" textFill="WHITE">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="166.0" prefHeight="25.0" prefWidth="69.0" text="Nid:" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="247.0" prefHeight="25.0" prefWidth="69.0" text="Phone:" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="209.0" prefHeight="25.0" prefWidth="69.0" text="Address:" textFill="#f5f5f5">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="15.0" layoutY="411.0" prefHeight="27.0" prefWidth="136.0" text="Land Location" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="351.0" prefHeight="27.0" prefWidth="151.0" text="Registration Date" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="15.0" layoutY="303.0" prefHeight="27.0" prefWidth="178.0" text="Registration Number" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="19.0" layoutY="473.0" prefHeight="27.0" prefWidth="128.0" text="Land Area" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="registrationNumberTextField" layoutX="193.0" layoutY="304.0" prefHeight="25.0" prefWidth="178.0" />
+      <DatePicker fx:id="registrationDateDatePicker" layoutX="195.0" layoutY="352.0" />
+      <ComboBox fx:id="landLocationCombo" layoutX="195.0" layoutY="412.0" prefWidth="150.0" />
+      <TextArea fx:id="landAreaTextArea" layoutX="147.0" layoutY="453.0" prefHeight="145.0" prefWidth="418.0" />
+   </children>
+</AnchorPane>

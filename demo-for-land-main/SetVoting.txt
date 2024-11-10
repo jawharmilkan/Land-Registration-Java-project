@@ -1,0 +1,3 @@
+Agree,75
+Disagree,20
+Neutral,5

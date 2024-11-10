@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: green;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="simulation.LandBuyergivevotesceneController">
+   <children>
+      <ComboBox fx:id="givevotecombobox" layoutX="217.0" layoutY="127.0" prefWidth="150.0" />
+      <Label layoutX="146.0" layoutY="131.0" prefHeight="17.0" prefWidth="61.0" text="Give vote:">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Button layoutX="257.0" layoutY="209.0" mnemonicParsing="false" onMouseClicked="#Givevotesubmit" text="Submit" />
+      <Button layoutX="472.0" layoutY="328.0" mnemonicParsing="false" onMouseClicked="#landbuyerbackbtn" prefHeight="25.0" prefWidth="61.0" text="Back" />
+   </children>
+</AnchorPane>

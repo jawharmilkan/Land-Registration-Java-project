@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="543.0" prefWidth="699.0" style="-fx-background-color: green;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="simulation.LegalAdvisorComplainFieldController">
+   <children>
+      <Label layoutX="258.0" layoutY="29.0" prefHeight="50.0" prefWidth="246.0" text="Complain Field" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Label>
+      <Button layoutX="26.0" layoutY="34.0" mnemonicParsing="false" onAction="#backButtonOnAction" prefHeight="31.0" prefWidth="110.0" text="Back">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <TableView fx:id="complainfieldtable" layoutX="26.0" layoutY="111.0" prefHeight="428.0" prefWidth="665.0">
+        <columns>
+          <TableColumn fx:id="complainsummarycolumn" prefWidth="497.0" text="Complain Summary" />
+          <TableColumn fx:id="complainnamecolumn" minWidth="0.0" prefWidth="167.0" text="Name" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
